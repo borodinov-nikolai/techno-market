@@ -29,7 +29,6 @@ function App() {
     <div className="App">
       <Router>
       <Header/>
-      <div>Тестовая запись</div>
       <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/catalog/*' element={<DeviceRouter/>} />
